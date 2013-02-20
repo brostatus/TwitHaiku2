@@ -1,0 +1,113 @@
+body {background-color:#00bea4;}
+
+@font-face {
+	font-family: hel;
+	src: url('helveticaneue.otf');
+}
+.poem
+{
+	opacity:0;
+	position:fixed;
+	left:5%;
+	top:50%;
+	font-family: hel;
+	color: white;
+	font-size: 32px;
+	padding-left: 10px;
+	text-align: justify;
+
+}
+.poem.a
+{         
+   -webkit-animation-name: one;
+   -webkit-animation-duration: 2s;
+   -webkit-animation-delay: 0s;   
+   -webkit-animation-fill-mode: forwards;         
+}
+.poem.b
+{         
+   -webkit-animation-name: two;
+   -webkit-animation-duration: 2s;
+   -webkit-animation-delay: 2s;  
+   -webkit-animation-fill-mode: forwards;         
+        
+}
+.poem.c
+{         
+   -webkit-animation-name: move;
+   -webkit-animation-duration: 2s;
+   -webkit-animation-delay: 4s;
+   -webkit-animation-fill-mode: forwards;         
+          
+}
+.poem.d
+{         
+   -webkit-animation-name: move;
+   -webkit-animation-duration: 20s;
+   -webkit-animation-delay: 57s;
+   -webkit-animation-fill-mode: forwards;          
+}
+.poem.e
+{         
+   -webkit-animation-name: move;
+   -webkit-animation-duration: 20s;
+   -webkit-animation-delay: 77s;
+   -webkit-animation-fill-mode: forwards;          
+}
+.poem.f
+{         
+   -webkit-animation-name: move;
+   -webkit-animation-duration: 20s;
+   -webkit-animation-delay: 97s;
+   -webkit-animation-fill-mode: forwards;          
+}
+
+@-webkit-keyframes one {
+   0% { 
+   	opacity:0;
+   	top:100%;
+      
+   }
+   20%{ 
+   		top:50%;
+   		opacity: 95;
+      -webkit-transform: rotate(0deg);
+   }
+   90%{
+   	top:50%;
+   		opacity: 95;
+      -webkit-transform: rotate(0deg);
+   }
+   	98%{
+		top:10%;
+	}
+	100%{
+		top:10%;
+      opacity: 100;
+	}
+
+
+
+@-webkit-keyframes two {
+   0% { 
+      opacity:0;
+      top:100%;
+      
+   }
+   20%{ 
+         top:50%;
+         opacity: 95;
+      -webkit-transform: rotate(0deg);
+   }
+   90%{
+      top:50%;
+         opacity: 95;
+      -webkit-transform: rotate(0deg);
+   }
+      98%{
+      top:10%;
+   }
+   100%{
+      top:10%;
+      opacity: 100;
+   }

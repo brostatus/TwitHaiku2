@@ -1,0 +1,162 @@
+body {background-color:white;}
+
+@font-face {
+	font-family: hel;
+	src: url('helveticaneue.otf');
+}
+@font-face {
+   font-family: shit;
+   src: url('shit.otf');
+}
+.poem
+{
+	opacity:0;
+	position:fixed;
+	left:5%;
+	top:50%;
+	font-family: hel;
+	color: white;
+	font-size: 20px;
+	padding-left: 10px;
+	text-align: justify;
+
+}
+.name{
+   font-family: shit; 
+   font-style: ultralight;
+   opacity:100;
+   font-size: 26px;
+   height:5%;
+   width: 5%;
+   -webkit-transform: rotate(-90deg);
+   position:fixed;
+   left:9.7%;
+   
+
+}
+.name.obama
+{   
+   
+   color:red;
+}
+.name.abortion
+{         
+   
+   color:pink;      
+        
+}
+.name.taxes{
+   
+   color:#00bea4;
+}
+.name.guns{
+   
+   color:grey;
+}
+.name.gay{
+      color: orange
+}
+.obama
+{   
+   top: 5%;
+}
+.abortion
+{         
+   top: 27%;      
+        
+}
+.taxes{
+   top:49%;
+}
+.guns{
+   top:71%;
+}
+.gay{
+   top:90%;
+}
+.a
+{   
+   -webkit-animation-name: mymove;
+   -webkit-animation-duration: 10s;
+   -webkit-animation-delay: 0s;   
+   -webkit-animation-fill-mode: forwards;      
+   left:20%;                
+}
+.b{
+    -webkit-animation-name: mymove;
+   -webkit-animation-duration: 10s;
+   -webkit-animation-delay: 15s;   
+   -webkit-animation-fill-mode: forwards; 
+   left:35%
+}
+.c{
+    -webkit-animation-name: mymove;
+   -webkit-animation-duration: 10s;
+   -webkit-animation-delay: 30s;   
+   -webkit-animation-fill-mode: forwards; 
+   left: 50%;
+}
+.d{
+    -webkit-animation-name: mymove;
+   -webkit-animation-duration: 10s;
+   -webkit-animation-delay: 45s;   
+   -webkit-animation-fill-mode: forwards; 
+   left: 65%;
+}
+.e{
+    -webkit-animation-name: mymove;
+   -webkit-animation-duration: 10s;
+   -webkit-animation-delay: 60s;   
+   -webkit-animation-fill-mode: forwards; 
+   left: 80%
+}
+.box {
+   position:fixed;
+   height:10%;
+   width:90%;
+   left:12%;
+   }
+.red{
+   top: 3%;
+   background-color: red
+}
+.blue{
+   top: 47%;
+   background-color: #00bea4
+}
+.grey{
+   top: 69%;
+   background-color: grey 
+}
+.pink{
+   top: 25%;
+   background-color:pink;
+}
+.green{
+   top: 88%;
+   background-color: orange 
+}
+@-webkit-keyframes mymove {
+   0% { 
+      position:relative;
+   	opacity:0;
+   	
+      
+   }
+   20%{ 
+   		
+   		opacity: 40;
+      -webkit-transform: rotate(0deg);
+   }
+   90%{
+   	
+   		opacity: 95;
+      -webkit-transform: rotate(0deg);
+   }
+   	98%{
+		
+	}
+	100%{
+		
+      opacity: 100;
+	}
